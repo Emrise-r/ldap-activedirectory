@@ -41,8 +41,8 @@ public class PersonDAO implements IPersonService {
         //Specify the search scope
         searchControls.setReturningAttributes(Attrs);
 
-        //specify the LDAP search filter
-        String searchFilter = "(&(objectClass=User))";
+        //specify the LDAP search filter person where sAMAccountName contains vinhnq
+        String searchFilter = "(&(objectClass=User)(sAMAccountName=vinhnq*))";
 
         //Specify the Base for the search
         String searchBase = base;
