@@ -1,0 +1,9 @@
+controller\CreatePerson.class
+service\IPersonService.class
+controller\GetPerson.class
+service\PersonDAO.class
+controller\ListPerson.class
+controller\DeletePerson.class
+model\Person.class
+model\PersonDTO.class
+controller\UpdatePerson.class
